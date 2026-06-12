@@ -1,0 +1,1 @@
+learning postgresql with automated db_updated.sh files making changes conected to the live databse on my local machine.
