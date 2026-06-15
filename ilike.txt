@@ -1,0 +1,6 @@
+ SELECT * FROM visa_data WHERE nationality ILIKE 'k%';
+ id  | first_name | last_name |      email       |   gender    | date_of_birth | nationality 
+-----+------------+-----------+------------------+-------------+---------------+-------------
+ 300 | Bradford   | Vial      | bvial8b@phoca.cz | Genderqueer | 2010-11-21    | Kazakhstan
+(1 row)
+

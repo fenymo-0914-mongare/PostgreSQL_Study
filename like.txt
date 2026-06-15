@@ -1,0 +1,112 @@
+ SELECT * FROM visa_data WHERE email LIKE '%.org';
+ id  | first_name | last_name  |              email              | gender  | date_of_birth | nationality 
+-----+------------+------------+---------------------------------+---------+---------------+-------------
+   1 | Trent      | Ducarne    | tducarne0@slashdot.org          | Male    | 2004-02-25    | Paraguay
+   7 | Fanni      | Kedslie    | fkedslie6@slashdot.org          | Female  | 2018-10-30    | Ukraine
+  25 | Weylin     | Chadburn   | wchadburno@pbs.org              | Male    | 2013-05-13    | Ukraine
+  36 | Halley     | Roggers    | hroggersz@archive.org           | Female  | 2021-07-02    | Uganda
+  38 | Gelya      | Sixsmith   | gsixsmith11@drupal.org          | Female  | 2013-12-08    | Philippines
+  44 | Cherrita   | Tomashov   | ctomashov17@wordpress.org       | Female  | 2004-12-19    | China
+  62 | Morena     | Baldacchi  | mbaldacchi1p@gmpg.org           | Female  | 2005-04-18    | Vietnam
+  75 | Mignon     | Bedson     | mbedson22@joomla.org            | Agender | 2021-10-19    | Philippines
+ 103 | Irene      | Alennikov  | ialennikov2u@craigslist.org     | Female  | 2000-01-28    | Russia
+ 115 | Tanney     | Gogie      | tgogie36@unicef.org             | Male    | 2025-05-20    | Myanmar
+ 136 | Hermione   | Tilliard   | htilliard3r@creativecommons.org | Female  | 2012-12-03    | Italy
+ 162 | Dreddy     | Le Monnier | dlemonnier4h@wikipedia.org      | Female  | 2024-10-30    | Indonesia
+ 188 | Anica      | Glencros   | aglencros57@wikipedia.org       | Female  | 2013-02-19    | Peru
+ 203 | Kleon      | Casely     | kcasely5m@altervista.org        | Male    | 2018-01-03    | Russia
+ 218 | Sol        | Bridson    | sbridson61@mozilla.org          | Male    | 2005-01-15    | Afghanistan
+ 231 | Waldon     | Defont     | wdefont6e@unesco.org            | Male    | 2009-08-06    | China
+ 254 | Barret     | Spick      | bspick71@networkadvertising.org | Male    | 2013-04-14    | Vanuatu
+ 278 | Giffie     | Winscom    | gwinscom7p@slashdot.org         | Male    | 2019-06-26    | China
+ 291 | Alexander  | Ackwood    | aackwood82@apache.org           | Male    | 2002-05-14    | Indonesia
+(19 rows)
+
+
+SELECT * FROM visa_data WHERE email LIKE '%google.%';
+ id  | first_name |  last_name  |            email            | gender | date_of_birth | nationality 
+-----+------------+-------------+-----------------------------+--------+---------------+-------------
+   5 | Sonya      | Rosentholer | srosentholer4@google.com.br | Female | 2013-09-20    | Philippines
+  12 | Evaleen    | Gulleford   | egullefordb@google.ru       | Female | 2013-07-01    | Ukraine
+  31 | Lou        | Tatton      | ltattonu@google.com.au      | Male   | 2002-06-14    | Philippines
+  58 | Tadd       | Stronge     | tstronge1l@google.com       | Male   | 2004-06-21    | China
+  94 | Ceil       | Awcoate     | cawcoate2l@google.com.au    | Female | 2010-06-30    | Indonesia
+  97 | Hewe       | Halbeard    | hhalbeard2o@google.com.au   | Male   | 2010-07-11    | Indonesia
+ 182 | Emili      | Housbey     | ehousbey51@google.co.jp     | Female | 2019-03-10    | Sweden
+ 239 | Chicky     | Barkes      | cbarkes6m@google.de         | Male   | 2016-12-13    | Bhutan
+ 244 | Orella     | Mogenot     | omogenot6r@google.es        | Female | 2006-07-27    | Slovenia
+ 246 | Ferne      | Pettingill  | fpettingill6t@google.nl     | Female | 2008-04-12    | Japan
+ 259 | Clarance   | Fuentes     | cfuentes76@google.ru        | Male   | 2015-04-28    | Ireland
+ 261 | Emilio     | Conachy     | econachy78@google.com.au    | Male   | 2000-10-16    | Poland
+ 279 | Tuck       | Hame        | thame7q@google.it           | Male   | 2007-10-02    | Netherlands
+ 282 | Wilmer     | Tappor      | wtappor7t@google.fr         | Male   | 2024-01-03    | Thailand
+(14 rows)
+
+SELECT * FROM visa_data WHERE email LIKE '_________@%';
+ id  | first_name | last_name |             email              |   gender    | date_of_birth |      nationality      
+-----+------------+-----------+--------------------------------+-------------+---------------+-----------------------
+   1 | Trent      | Ducarne   | tducarne0@slashdot.org         | Male        | 2004-02-25    | Paraguay
+   4 | Nadya      | Lippard   | nlippard3@rambler.ru           | Female      | 2000-02-18    | France
+   7 | Fanni      | Kedslie   | fkedslie6@slashdot.org         | Female      | 2018-10-30    | Ukraine
+  15 | Giulietta  | Coudray   | gcoudraye@so-net.ne.jp         | Female      | 2022-01-25    | France
+  24 | Beaufort   | Bernade   | bbernaden@theatlantic.com      | Male        | 2017-05-31    | Indonesia
+  29 | West       | Annetts   | wannettss@cbslocal.com         | Male        | 2015-03-18    | Poland
+  30 | Elaine     | Macieja   | emaciejat@multiply.com         | Genderfluid | 2024-04-13    | Malawi
+  32 | Barn       | Twamley   | btwamleyv@nbcnews.com          | Male        | 2004-01-23    | China
+  34 | Ernesto    | Sanpher   | esanpherx@samsung.com          | Agender     | 2001-12-12    | Portugal
+  36 | Halley     | Roggers   | hroggersz@archive.org          | Female      | 2021-07-02    | Uganda
+  39 | Jenna      | Messum    | jmessum12@g.co                 | Female      | 2008-12-29    | Canada
+  46 | Artur      | Arnell    | aarnell19@behance.net          | Male        | 2022-06-27    | Jamaica
+  53 | Rosina     | Ewbank    | rewbank1g@istockphoto.com      | Female      | 2019-05-07    | China
+  64 | Cathy      | Drable    | cdrable1r@arizona.edu          | Female      | 2020-07-31    | Poland
+  67 | Humfrey    | Virgoe    | hvirgoe1u@smh.com.au           | Male        | 2012-04-11    | Croatia
+  71 | Rosa       | Iseton    | riseton1y@freewebs.com         | Female      | 2022-02-27    | United States
+  75 | Mignon     | Bedson    | mbedson22@joomla.org           | Agender     | 2021-10-19    | Philippines
+  92 | Liane      | Casale    | lcasale2j@youtube.com          | Non-binary  | 2014-07-04    | Thailand
+ 102 | Brandyn    | Greger    | bgreger2t@bluehost.com         | Male        | 2019-12-09    | Russia
+ 105 | Roth       | Cheves    | rcheves2w@cnn.com              | Male        | 2019-09-06    | China
+ 110 | Mace       | Bemand    | mbemand31@ucoz.ru              | Male        | 2015-11-19    | Palestinian Territory
+ 117 | Keefer     | Kahler    | kkahler38@cnet.com             | Male        | 2001-02-14    | Greece
+ 123 | Kata       | Pirkis    | kpirkis3e@zimbio.com           | Female      | 2023-06-01    | China
+ 129 | Eveline    | Goding    | egoding3k@aboutads.info        | Female      | 2021-05-14    | United States
+ 133 | Gabriellia | Sayers    | gsayers3o@multiply.com         | Female      | 2019-05-05    | Czech Republic
+ 141 | Eileen     | Leftly    | eleftly3w@vkontakte.ru         | Female      | 2016-11-07    | Brazil
+ 142 | Bronny     | Mungin    | bmungin3x@exblog.jp            | Male        | 2015-08-05    | France
+ 143 | Sibella    | Minget    | sminget3y@naver.com            | Female      | 2016-03-14    | Portugal
+ 147 | Chiarra    | Severy    | csevery42@illinois.edu         | Female      | 2001-05-31    | Iran
+ 150 | Silvana    | Fraulo    | sfraulo45@indiegogo.com        | Female      | 2017-03-25    | Morocco
+ 152 | Myrtice    | Fryatt    | mfryatt47@deviantart.com       | Female      | 2014-01-08    | Brazil
+ 165 | Dacey      | Maffia    | dmaffia4k@army.mil             | Female      | 2026-02-18    | Indonesia
+ 166 | Jeanne     | Vosper    | jvosper4l@multiply.com         | Female      | 2000-06-17    | Brazil
+ 167 | Karim      | Dautry    | kdautry4m@dailymotion.com      | Male        | 2017-05-21    | Portugal
+ 176 | Willyt     | Flower    | wflower4v@feedburner.com       | Female      | 2006-01-01    | Malaysia
+ 177 | Merwyn     | Marney    | mmarney4w@nature.com           | Male        | 2022-06-21    | Germany
+ 179 | Ellsworth  | Hyrons    | ehyrons4y@pagesperso-orange.fr | Male        | 2014-08-07    | Russia
+ 189 | Duff       | Luckie    | dluckie58@blogspot.com         | Male        | 2011-05-06    | Russia
+ 190 | Pietra     | Poizer    | ppoizer59@hubpages.com         | Female      | 2014-12-20    | Brazil
+ 194 | Douglass   | Marcus    | dmarcus5d@earthlink.net        | Male        | 2024-10-19    | Portugal
+ 196 | Catlin     | Hankey    | chankey5f@1und1.de             | Female      | 2006-02-04    | Nigeria
+ 203 | Kleon      | Casely    | kcasely5m@altervista.org       | Male        | 2018-01-03    | Russia
+ 204 | Loretta    | Vinall    | lvinall5n@soup.io              | Polygender  | 2011-05-05    | Ecuador
+ 224 | Regine     | Atkirk    | ratkirk67@macromedia.com       | Female      | 2000-12-13    | France
+ 227 | Ellissa    | Bygott    | ebygott6a@nytimes.com          | Female      | 2008-05-13    | Uganda
+ 231 | Waldon     | Defont    | wdefont6e@unesco.org           | Male        | 2009-08-06    | China
+ 233 | Jermaine   | McGahy    | jmcgahy6g@weibo.com            | Female      | 2006-04-28    | Philippines
+ 235 | Caren      | Lorent    | clorent6i@dailymotion.com      | Female      | 2004-10-17    | Russia
+ 238 | Gerald     | Simony    | gsimony6l@alibaba.com          | Polygender  | 2006-09-03    | Poland
+ 239 | Chicky     | Barkes    | cbarkes6m@google.de            | Male        | 2016-12-13    | Bhutan
+ 240 | Berty      | Heugel    | bheugel6n@freewebs.com         | Male        | 2012-12-04    | Indonesia
+ 241 | Ora        | Sollon    | osollon6o@shutterfly.com       | Female      | 2009-07-02    | Poland
+ 245 | Pavel      | Wybern    | pwybern6s@skype.com            | Male        | 2025-10-07    | Martinique
+ 258 | Sal        | O'Ruane   | soruane75@ow.ly                | Female      | 2023-04-04    | Latvia
+ 263 | Allie      | Owlner    | aowlner7a@mediafire.com        | Female      | 2021-11-03    | Japan
+ 265 | Cecily     | Bendle    | cbendle7c@ed.gov               | Female      | 2007-11-07    | Indonesia
+ 280 | Mile       | Crudge    | mcrudge7r@imdb.com             | Male        | 2012-09-25    | Cuba
+ 282 | Wilmer     | Tappor    | wtappor7t@google.fr            | Male        | 2024-01-03    | Thailand
+ 283 | Nelly      | Kippie    | nkippie7u@ocn.ne.jp            | Female      | 2001-07-12    | France
+ 285 | Portie     | Jirick    | pjirick7w@oracle.com           | Male        | 2020-06-27    | Philippines
+ 287 | Arabelle   | Uttley    | auttley7y@answers.com          | Female      | 2005-06-11    | Philippines
+ 288 | Laure      | Alcock    | lalcock7z@paginegialle.it      | Female      | 2021-03-05    | China
+ 297 | Sile       | Harler    | sharler88@yellowpages.com      | Female      | 2024-08-15    | Dominican Republic
+(63 rows)
+

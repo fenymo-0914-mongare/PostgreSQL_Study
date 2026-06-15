@@ -1,0 +1,10 @@
+ SELECT * FROM register OFFSET 5 FETCH FIRST 5 ROW ONLY;
+ id | first_name  | last_name  |           bank_name            |   gender   |    home_address     
+----+-------------+------------+--------------------------------+------------+---------------------
+  7 | Herman      | Munnery    | FIRST BANK                     | Male       | 63 Prairieview Pass
+  8 | Annecorinne | Harrington | STONEGATE BANK                 | Female     | 622 Old Shore Hill
+ 11 | Bobbie      | Harburtson | Volksbank Lüneburger Heide eG | Female     | 77019 Granby Pass
+ 12 | Adelbert    | Manis      | BANK OF NEW YORK MELLON        | Non-binary | 0 Memorial Drive
+ 13 | Agace       | Torrijos   | FARMERS BANK                   | Female     | 12137 Boyd Crossing
+(5 rows)
+
