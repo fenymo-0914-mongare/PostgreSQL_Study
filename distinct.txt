@@ -1,0 +1,11 @@
+ SELECT DISTINCT gender FROM register ORDER BY gender;
+   gender    
+-------------
+ Bigender
+ Female
+ Genderfluid
+ Male
+ Non-binary
+ Polygender
+(6 rows)
+

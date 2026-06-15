@@ -1,0 +1,87 @@
+ SELECT * FROM register WHERE gender IN ('Male', 'Female');
+ id  |  first_name  |   last_name   |                 bank_name                  | gender |        home_address         
+-----+--------------+---------------+--------------------------------------------+--------+-----------------------------
+   2 | Cesare       | Dawkes        | Sparkasse Hannover                         | Male   | 016 Meadow Valley Plaza
+   4 | Dacia        | Elven         | BRANCH BANKING & TRUST COMPANY             | Female | 68 Graceland Place
+   5 | Hailey       | De la Feld    | GLACIER BANK                               | Male   | 3543 Harbort Avenue
+   6 | Simeon       | Pawlaczyk     | Raiffeisenbank Linz-Land West eGen         | Male   | 99671 Meadow Ridge Road
+   7 | Herman       | Munnery       | FIRST BANK                                 | Male   | 63 Prairieview Pass
+   8 | Annecorinne  | Harrington    | STONEGATE BANK                             | Female | 622 Old Shore Hill
+  11 | Bobbie       | Harburtson    | Volksbank Lüneburger Heide eG             | Female | 77019 Granby Pass
+  13 | Agace        | Torrijos      | FARMERS BANK                               | Female | 12137 Boyd Crossing
+  14 | Zonnya       | Cavalier      | BANK OF AMERICA                            | Female | 89 Katie Drive
+  15 | Jessalin     | Mangenet      | Raiffeisenbank Bludenz-Montafon eGen       | Female | 41060 Thierer Hill
+  16 | Angel        | Leuchars      | Kathrein Privatbank Aktiengesellschaft     | Female | 16350 Old Shore Way
+  17 | Sandor       | Bensley       | JPMORGAN CHASE                             | Male   | 0 Steensland Junction
+  18 | Tommie       | Van den Broek | FIRST NATIONAL BANK                        | Male   | 40 Butternut Court
+  19 | Selinda      | Camock        | Raiffeisen Bank International AG           | Female | 75268 Evergreen Plaza
+  20 | Aurore       | Churchill     | PROSPERITY BANK                            | Female | 96 Hollow Ridge Terrace
+  21 | Estelle      | Ewington      | PEOPLES BANK                               | Female | 7 7th Place
+  22 | Ynes         | Shakle        | Sparkasse Vorpommern                       | Female | 74 Bobwhite Lane
+  23 | Dicky        | McAsgill      | UMPQUA BANK                                | Male   | 0 Eastwood Road
+  24 | Donal        | Rossi         | RØNDE SPAREKASSE                          | Male   | 062 Red Cloud Crossing
+  25 | Rickert      | Brekonridge   | Volksbank Düsseldorf Neuss eG             | Male   | 6374 Division Trail
+  26 | Gaynor       | Wands         | FIRST FINANCIAL BANK                       | Female | 9366 Green Crossing
+  27 | Guenna       | Boyall        | SIMMONS FIRST NATL BK                      | Female | 65865 Sherman Lane
+  29 | Pearle       | Papa          | REGIONS BANK                               | Female | 443 Russell Trail
+  30 | Hugibert     | Kording       | Raiffeisenbank Region Ried i.I. eGen       | Male   | 9993 Packers Plaza
+  31 | Teddy        | Quickenden    | PEOPLES STATE BANK                         | Female | 9 Shopko Point
+  32 | Hakeem       | Buckie        | CENTRAL BANK                               | Male   | 4 Glendale Way
+  33 | Artair       | Parsand       | JPMORGAN CHASE                             | Male   | 4771 David Circle
+  34 | Farlay       | Boteman       | BANCO BPM SOCIETA' PER AZIONI              | Male   | 3884 Susan Terrace
+  35 | Barbara-anne | Leggin        | Volksbank eG                               | Female | 31 Melby Court
+  36 | Katie        | Babe          | Volks- und Raiffeisenbank Prignitz eG      | Female | 8514 Old Shore Trail
+  37 | Derick       | Winspear      | Volksbank Klettgau-Wutöschingen eG        | Male   | 3673 Gulseth Center
+  39 | Staffard     | Gerrie        | OP Yrityspankki Oyj                        | Male   | 08 Cody Way
+  40 | Rad          | Jikylls       | Hamburgische Investitions- und Förderbank | Male   | 67 Stuart Avenue
+  41 | Cyrillus     | Lippini       | Vereinte Volksbank eG                      | Male   | 2070 Warrior Lane
+  42 | Cyndia       | Charleston    | mBank Hipoteczny S.A.                      | Female | 772 Mariners Cove Hill
+  43 | Darcey       | Tift          | FIRST NATIONAL BANK                        | Female | 5241 Lakewood Gardens Point
+  44 | Karlen       | McSkeagan     | CITIZENS BANK                              | Female | 91277 Valley Edge Junction
+  45 | Eleanore     | Jaffa         | RENASANT BANK                              | Female | 81095 Lotheville Plaza
+  46 | Gawen        | Mathey        | ING Bank N.V.                              | Male   | 80739 Roth Point
+  47 | Maddy        | Bonder        | COMPASS BANK                               | Male   | 4 Maryland Hill
+  48 | Farrell      | Keddy         | Newmarket Credit Union Limited             | Male   | 8839 Golf Course Way
+  49 | Madalyn      | Metherell     | FIRSTBANK                                  | Female | 93133 Hovde Alley
+  50 | Chickie      | Crone         | KEY BANK                                   | Female | 296 Harper Court
+  51 | Glendon      | Giacovetti    | BANCO BPM SOCIETA' PER AZIONI              | Male   | 05988 Sundown Place
+  52 | Pia          | Veitch        | UNITED BANK & CAPITAL TRUST COMPANY        | Female | 1 Sauthoff Center
+  53 | Darill       | Kilgallon     | FIRST NATIONAL BANK                        | Male   | 00 Memorial Crossing
+  54 | Josiah       | Dowe          | S & T BANK                                 | Male   | 0 5th Avenue
+  55 | Evan         | Wolstenholme  | DEUTSCHE BANK AKTIENGESELLSCHAFT           | Male   | 570 Colorado Point
+  57 | Johnathon    | Darrach       | Coöperatieve Rabobank U.A.                | Male   | 16838 Londonderry Hill
+  58 | Gayla        | Penhalewick   | FIDELITY BANK                              | Female | 6967 Arapahoe Parkway
+  59 | Kurtis       | Hardcastle    | BANK OF COMMERCE                           | Male   | 07 Di Loreto Junction
+  61 | Maia         | Ahmed         | BANCO BPM SOCIETA' PER AZIONI              | Female | 9 Oak Point
+  62 | Nanci        | Gresley       | JPMORGAN CHASE                             | Female | 1155 Melrose Point
+  63 | Rose         | Gorgler       | UNION BANK & TRUST                         | Female | 03522 Hanson Street
+  66 | Oliy         | Cottem        | FIRST STATE BANK                           | Female | 7325 Morning Point
+  67 | Wallie       | Gallanders    | Bank Spółdzielczy w Głownie             | Male   | 32892 Sage Hill
+  68 | Teodoor      | Yes           | THE HUNTINGTON NATIONAL BANK               | Male   | 46541 Johnson Point
+  69 | Gill         | Briscam       | Crédit industriel et commercial - CIC     | Female | 7 Lakewood Gardens Avenue
+  71 | Roxanna      | Petrovykh     | Intesa Sanpaolo Bank Luxembourg S.A.       | Female | 3 Pepper Wood Trail
+  72 | Obadias      | Macconaghy    | VR Bank Fulda eG                           | Male   | 97 Roxbury Terrace
+  73 | Rhoda        | Pavia         | Sparkasse Hannover                         | Female | 1011 Vernon Drive
+  74 | Ingelbert    | Sherr         | FIRST NATIONAL BANK                        | Male   | 11 Manufacturers Circle
+  75 | Wilow        | Sherratt      | THE PEOPLES BANK                           | Female | 935 Starling Lane
+  76 | Gillie       | Leglise       | FIRST NATIONAL BANK                        | Female | 8051 Russell Crossing
+  77 | Deanna       | Gillian       | PINNACLE BANK                              | Female | 06 Stuart Trail
+  79 | Baxy         | Loxley        | BANK OF AMERICA                            | Male   | 208 Huxley Terrace
+  80 | Sonnnie      | Yarr          | Baader Bank Aktiengesellschaft             | Female | 84 Jenna Way
+  82 | Marcy        | Maile         | EAST WEST BANK                             | Female | 16016 Northland Park
+  83 | Mariquilla   | Illwell       | COMMUNITY BANK                             | Female | 46647 Laurel Place
+  84 | Roberta      | Tendahl       | BANK OF AMERICA                            | Female | 485 Arapahoe Avenue
+  87 | Delmore      | Heggie        | FIRST NATIONAL BANK                        | Male   | 9911 Texas Way
+  88 | Maynord      | Kleinsmuntz   | FIRST FINANCIAL BANK                       | Male   | 3 Merry Trail
+  89 | Paten        | Botton        | BRANCH BANKING & TRUST COMPANY             | Male   | 5 Jenifer Center
+  91 | Drucill      | McCay         | VALLEY NATIONAL BANK                       | Female | 81 Independence Road
+  92 | Johann       | Nelthorp      | BANK OF AMERICA                            | Male   | 376 Old Shore Point
+  94 | Kalina       | Gigg          | FIRST TENNESSEE BANK                       | Female | 1 Maryland Court
+  95 | Bastian      | Note          | Oldenburger Volksbank eG                   | Male   | 58550 Iowa Circle
+  96 | Christos     | Limpenny      | FRANDSEN BANK & TRUST                      | Male   | 65 Graceland Plaza
+  97 | Tricia       | Coulton       | BANCO BPM SOCIETA' PER AZIONI              | Female | 55863 Gerald Hill
+  98 | Dora         | Parriss       | TRUSTMARK NATIONAL BANK                    | Female | 34599 Autumn Leaf Trail
+  99 | Meryl        | Lapenna       | RENASANT BANK                              | Male   | 16346 Colorado Junction
+ 100 | Cole         | Hegel         | BANCO POPULAR                              | Male   | 5 Leroy Junction
+(82 rows)
+
