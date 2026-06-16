@@ -1,0 +1,97 @@
+SELECT nationality, COUNT(*) FROM visa_data GROUP BY  nationality ORDER BY count DESC;
+           nationality            | count 
+----------------------------------+-------
+ China                            |    54
+ Indonesia                        |    34
+ Philippines                      |    26
+ Poland                           |    17
+ Russia                           |    14
+ Brazil                           |    13
+ France                           |    11
+ Portugal                         |     8
+ Sweden                           |     7
+ United States                    |     7
+ Greece                           |     6
+ Thailand                         |     6
+ Vietnam                          |     5
+ Japan                            |     5
+ Canada                           |     4
+ Ukraine                          |     4
+ Nigeria                          |     3
+ Peru                             |     3
+ Germany                          |     2
+ Moldova                          |     2
+ Sierra Leone                     |     2
+ Uganda                           |     2
+ Mexico                           |     2
+ Tanzania                         |     2
+ Palestinian Territory            |     2
+ South Africa                     |     2
+ Bolivia                          |     2
+ Netherlands                      |     2
+ Colombia                         |     2
+ Norway                           |     2
+ Croatia                          |     2
+ New Caledonia                    |     2
+ Argentina                        |     2
+ Mali                             |     1
+ Morocco                          |     1
+ Malawi                           |     1
+ Myanmar                          |     1
+ Nicaragua                        |     1
+ Costa Rica                       |     1
+ Democratic Republic of the Congo |     1
+ Bhutan                           |     1
+ Haiti                            |     1
+ El Salvador                      |     1
+ Togo                             |     1
+ Italy                            |     1
+ Venezuela                        |     1
+ Cameroon                         |     1
+ Luxembourg                       |     1
+ Czech Republic                   |     1
+ Dominican Republic               |     1
+ Ireland                          |     1
+ Papua New Guinea                 |     1
+ Cuba                             |     1
+ Latvia                           |     1
+ Slovenia                         |     1
+ Egypt                            |     1
+ Afghanistan                      |     1
+ Iran                             |     1
+ Chile                            |     1
+ Syria                            |     1
+ Kazakhstan                       |     1
+ Malaysia                         |     1
+ Madagascar                       |     1
+ Ivory Coast                      |     1
+ Jamaica                          |     1
+ Ecuador                          |     1
+ Honduras                         |     1
+ Belarus                          |     1
+ Pakistan                         |     1
+ Paraguay                         |     1
+ Martinique                       |     1
+ Vanuatu                          |     1
+ Western Sahara                   |     1
+ Lithuania                        |     1
+ Bulgaria                         |     1
+ Sudan                            |     1
+(76 rows)
+
+SELECT nationality, COUNT(*) FROM visa_data GROUP BY nationality HAVING COUNT(*) > 5 ORDER BY count DESC;
+  nationality  | count 
+---------------+-------
+ China         |    54
+ Indonesia     |    34
+ Philippines   |    26
+ Poland        |    17
+ Russia        |    14
+ Brazil        |    13
+ France        |    11
+ Portugal      |     8
+ United States |     7
+ Sweden        |     7
+ Greece        |     6
+ Thailand      |     6
+(12 rows)
