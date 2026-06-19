@@ -1,0 +1,57 @@
+SELECT make, ROUND(AVG(price)) FROM cars GROUP BY make;
+     make      | round  
+---------------+--------
+ GMC           | 309460
+ Maybach       | 473308
+ Lincoln       | 261365
+ Honda         | 273345
+ Ram           | 169843
+ Daewoo        | 211787
+ Ford          | 245608
+ Scion         | 318786
+ Maserati      | 282723
+ Aptera        | 185683
+ Dodge         | 271392
+ Shelby        | 421032
+ Chevrolet     | 278399
+ Infiniti      | 261334
+ MINI          | 276755
+ Bentley       | 193405
+ Pontiac       | 268437
+ Porsche       | 313797
+ Plymouth      | 353340
+ Audi          | 244233
+ Rolls-Royce   | 126112
+ Tesla         | 102762
+ Lexus         | 260360
+ Kia           | 267357
+ Lotus         | 373015
+ Lamborghini   | 358633
+ Mercedes-Benz | 262379
+ Oldsmobile    | 267752
+ Land Rover    | 258825
+ Jeep          | 411609
+ Buick         | 276507
+ Volvo         | 262743
+ Nissan        | 285566
+ Acura         | 278261
+ Cadillac      | 210681
+ Saab          | 257857
+ Suzuki        | 321539
+ Hyundai       | 276765
+ Aston Martin  | 426730
+ Mitsubishi    | 207627
+ Subaru        | 291170
+ Mazda         | 254185
+ BMW           | 296714
+ Foose         | 369505
+ Volkswagen    | 244799
+ Mercury       | 219136
+ Eagle         | 137637
+ Hummer        | 386289
+ Ferrari       | 173771
+ Chrysler      | 287825
+ Isuzu         | 320926
+ Toyota        | 279401
+(52 rows)
+

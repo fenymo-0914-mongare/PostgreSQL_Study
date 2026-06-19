@@ -1,0 +1,57 @@
+SELECT make, MAX(price) FROM cars GROUP BY make;
+     make      |    max    
+---------------+-----------
+ GMC           | 482190.44
+ Maybach       | 488334.62
+ Lincoln       | 473800.37
+ Honda         | 475036.57
+ Ram           | 169843.00
+ Daewoo        | 304558.34
+ Ford          | 491829.78
+ Scion         | 406316.86
+ Maserati      | 395420.37
+ Aptera        | 185682.56
+ Dodge         | 467602.67
+ Shelby        | 421031.54
+ Chevrolet     | 493008.34
+ Infiniti      | 419214.37
+ MINI          | 276754.66
+ Bentley       | 437607.18
+ Pontiac       | 478847.68
+ Porsche       | 499271.23
+ Plymouth      | 463289.03
+ Audi          | 456622.73
+ Rolls-Royce   | 126112.31
+ Tesla         | 102761.69
+ Lexus         | 493705.75
+ Kia           | 481597.93
+ Lotus         | 490873.73
+ Lamborghini   | 470118.89
+ Mercedes-Benz | 478090.48
+ Oldsmobile    | 444790.80
+ Land Rover    | 495004.23
+ Jeep          | 492158.19
+ Buick         | 496565.81
+ Volvo         | 471658.32
+ Nissan        | 486302.39
+ Acura         | 446710.92
+ Cadillac      | 480506.15
+ Saab          | 392651.34
+ Suzuki        | 482393.91
+ Hyundai       | 474383.67
+ Aston Martin  | 426730.43
+ Mitsubishi    | 486084.73
+ Subaru        | 437532.76
+ Mazda         | 483389.04
+ BMW           | 482130.76
+ Foose         | 369504.54
+ Volkswagen    | 440435.57
+ Mercury       | 406263.96
+ Eagle         | 137637.22
+ Hummer        | 386288.58
+ Ferrari       | 278088.37
+ Chrysler      | 463389.22
+ Isuzu         | 496152.10
+ Toyota        | 492452.46
+(52 rows)
+
