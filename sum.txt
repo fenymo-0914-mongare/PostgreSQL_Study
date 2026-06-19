@@ -1,0 +1,118 @@
+SELECT currency, SUM(price) FR
+OM cars GROUP BY currency;
+   currency    |     sum     
+---------------+-------------
+ Ruble         |  6586984.49
+ Lilangeni     |   482190.44
+ Baht          |  2858477.81
+ Dirham        |   168969.93
+ Litas         |   345331.79
+ Kwanza        |   123063.09
+ Balboa        |   395970.92
+ Ringgit       |   522575.19
+ Krona         |  2151948.73
+ Shilling      |  1423749.51
+ Kuna          |  1087235.57
+ Euro          | 15264134.90
+ Denar         |   186269.87
+ Quetzal       |   532704.36
+ Manat         |   191158.71
+ Franc         |  2127244.49
+ Pula          |   492289.60
+ Peso          | 10508964.98
+ Leone         |    56647.45
+ Gourde        |   346491.00
+ Dinar         |  2571701.40
+ Ariary        |   623073.26
+ Somoni        |   303135.88
+ Rupee         |  1432838.67
+ Naira         |   419742.64
+ Hryvnia       |  1919539.84
+ Colon         |   310691.06
+ Escudo        |   155876.80
+ Won           |  2202264.99
+ Real          |  7502932.48
+ Taka          |   207697.97
+ Zloty         |  8276439.49
+ Rial          |  1386994.41
+ Rand          |  1299697.66
+ Cordoba       |   760073.83
+ Koruna        |  1588101.39
+ Lari          |   214119.03
+ Tugrik        |    61291.69
+ Kina          |   919663.52
+ Tenge         |   371937.59
+ Dollar        |  7731505.46
+ Sol           |  2882435.77
+ Pound         |   804057.59
+ Shekel        |   602674.72
+ Lev           |  1287732.54
+ Yuan Renminbi | 24876379.07
+ Dong          |   841109.09
+ Bolivar       |   192788.35
+ Birr          |   159522.98
+ Yen           |  1592266.12
+ Rupiah        | 15602706.99
+ Lek           |   332677.49
+ Lempira       |   934652.71
+ Marka         |   152296.45
+(54 rows)
+
+
+SELECT make, SUM(price) FROM cars GROUP BY make;
+     make      |     sum     
+---------------+-------------
+ GMC           |  8974332.36
+ Maybach       |   946616.42
+ Lincoln       |  2613654.66
+ Honda         |  2733454.98
+ Ram           |   169843.00
+ Daewoo        |   635361.76
+ Ford          | 13754058.07
+ Scion         |   956358.55
+ Maserati      |   565446.26
+ Aptera        |   185682.56
+ Dodge         |  7056196.86
+ Shelby        |   421031.54
+ Chevrolet     |  9187159.01
+ Infiniti      |  2613337.86
+ MINI          |   276754.66
+ Bentley       |   580214.76
+ Pontiac       |  4294999.80
+ Porsche       |  4706955.14
+ Plymouth      |  1766699.19
+ Audi          |  2442329.78
+ Rolls-Royce   |   126112.31
+ Tesla         |   102761.69
+ Lexus         |  4165767.86
+ Kia           |  3208284.65
+ Lotus         |   746030.00
+ Lamborghini   |  1434533.50
+ Mercedes-Benz |  5772334.05
+ Oldsmobile    |   803257.16
+ Land Rover    |  2847071.25
+ Jeep          |  3292869.37
+ Buick         |  2488566.80
+ Volvo         |  3678405.14
+ Nissan        |  3712357.29
+ Acura         |  2226090.78
+ Cadillac      |  1896133.23
+ Saab          |   515714.43
+ Suzuki        |  2572315.22
+ Hyundai       |  2490886.51
+ Aston Martin  |   426730.43
+ Mitsubishi    |  2906776.82
+ Subaru        |  2329358.28
+ Mazda         |  2541845.37
+ BMW           |  5637573.67
+ Foose         |   369504.54
+ Volkswagen    |  4161576.47
+ Mercury       |  1314814.53
+ Eagle         |   137637.22
+ Hummer        |   386288.58
+ Ferrari       |   347542.37
+ Chrysler      |  2302600.37
+ Isuzu         |   962779.49
+ Toyota        |  5588015.16
+(52 rows)
+
