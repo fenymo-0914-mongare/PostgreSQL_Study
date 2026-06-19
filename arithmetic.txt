@@ -1,0 +1,27 @@
+ SELECT id,make,model,price, currency, ROUND(price* .10,2) AS "discount 10%", 
+ ROUND(price - (price * .10),2) AS "Selling Price" FROM cars LIMIT 20;
+ 
+ id |     make      |     model     |   price   |   currency    | discount 10% | Selling Price 
+----+---------------+---------------+-----------+---------------+--------------+---------------
+  1 | Dodge         | Viper         | 227509.91 | Yuan Renminbi |     22750.99 |     204758.92
+  2 | Chrysler      | 300M          | 463389.22 | Pound         |     46338.92 |     417050.30
+  3 | Dodge         | Spirit        | 415636.63 | Yuan Renminbi |     41563.66 |     374072.97
+  4 | Mercedes-Benz | Sprinter      |  51330.60 | Rial          |      5133.06 |      46197.54
+  5 | Mercedes-Benz | E-Class       | 422087.40 | Yuan Renminbi |     42208.74 |     379878.66
+  6 | BMW           | 530           | 381109.70 | Ruble         |     38110.97 |     342998.73
+  7 | Chevrolet     | Suburban 2500 | 247456.38 | Real          |     24745.64 |     222710.74
+  8 | Lexus         | LS            | 303135.88 | Somoni        |     30313.59 |     272822.29
+  9 | Ram           | 2500          | 169843.00 | Lempira       |     16984.30 |     152858.70
+ 10 | Mercedes-Benz | C-Class       |  90747.95 | Peso          |      9074.80 |      81673.16
+ 11 | Pontiac       | Grand Prix    |  71727.69 | Dollar        |      7172.77 |      64554.92
+ 12 | Chrysler      | Sebring       | 305653.06 | Yuan Renminbi |     30565.31 |     275087.75
+ 13 | GMC           | Savana 3500   | 370185.73 | Euro          |     37018.57 |     333167.16
+ 14 | Lexus         | SC            | 267089.23 | Ruble         |     26708.92 |     240380.31
+ 15 | Volvo         | 960           | 227958.97 | Rupiah        |     22795.90 |     205163.07
+ 16 | Mitsubishi    | GTO           |  92192.86 | Rupee         |      9219.29 |      82973.57
+ 17 | Aptera        | Type-1h       | 185682.56 | Won           |     18568.26 |     167114.30
+ 18 | Chevrolet     | Silverado     | 386579.06 | Ruble         |     38657.91 |     347921.15
+ 19 | Lotus         | Exige         | 490873.73 | Franc         |     49087.37 |     441786.36
+ 20 | Maserati      | Coupe         | 395420.37 | Zloty         |     39542.04 |     355878.33
+(20 rows)
+
